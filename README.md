@@ -18,4 +18,9 @@ Recipe Genie will find food or drink recipes that use the ingredients you have i
 
 >If you have an Alexa device with a screen, you will see your ingredients pop up on your screen, recipes found for your search, and be able to view your selected recipe along with its' ingredients and step by step instructions.
 
-# Screenshots of Recipe Genie in action
+# Recipe Genie In Action
+![Adding ingredients](demo_pictures/recipe_genie_ingreidents.png)
+![Recipes to choose from](demo_pictures/recipe_genie_recipes.png)
+![Instructions for a recipe](demo_pictures/recipe_genie_instructions.png)
+![Recipe sent to phone](demo_pictures/recipe_genie_sent_to_phone.png)
+
