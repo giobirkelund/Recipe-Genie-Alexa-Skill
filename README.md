@@ -20,10 +20,10 @@ Recipe Genie will find food or drink recipes that use the ingredients you have i
 
 # Recipe Genie In Action
 ### Adding Ingredients
-<img src="demo_pictures/recipe_genie_ingreidents.png" width="1000">
+<img src="demo_pictures/recipe_genie_ingreidents.png" width="800">/
 ### Selecting a Recipe
-<img src="demo_pictures/recipe_genie_recipes.png" width="1000">
+<img src="demo_pictures/recipe_genie_recipes.png" width="800">/
 ### Instructions for a recipe
-<img src="demo_pictures/recipe_genie_instructions.png" width="1000">
+<img src="demo_pictures/recipe_genie_instructions.png" width="800">/
 ### Recipe sent to phone
-<img src="demo_pictures/recipe_genie_sent_to_phone.png" width="1000">
+<img src="demo_pictures/recipe_genie_sent_to_phone.png">
