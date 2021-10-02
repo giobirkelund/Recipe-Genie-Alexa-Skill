@@ -1,4 +1,4 @@
-# Recipe-Genie-Alexa-Skill
+# About the project
 
 As part of my DevPost submission for the Amazon Alexa Beyond Voice hackathon, I incoporated APL (Amazon Presentation Language) so that recipe genie would have a visual display for alexa devices with screens. Check out the links below for the submission and a video demo!
 * [Devpost submission](https://devpost.com/software/recipe-genie) 
