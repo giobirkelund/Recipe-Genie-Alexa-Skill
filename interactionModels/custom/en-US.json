@@ -1,0 +1,371 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "recipe genie",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "addIngredientsIntent",
+          "slots": [
+            {
+              "name": "ingredient",
+              "type": "AMAZON.Food",
+              "multipleValues": {
+                "enabled": true
+              }
+            },
+            {
+              "name": "addword",
+              "type": "addWord"
+            }
+          ],
+          "samples": [
+            "{ingredient}",
+            "{addword} {ingredient}"
+          ]
+        },
+        {
+          "name": "displayRecipesIntent",
+          "slots": [
+            {
+              "name": "displayRecipes",
+              "type": "displayRecipes"
+            },
+            {
+              "name": "nextRecipe",
+              "type": "nextRecipe"
+            }
+          ],
+          "samples": [
+            "{displayRecipes}",
+            "{nextRecipe}"
+          ]
+        },
+        {
+          "name": "selectRecipeIntent",
+          "slots": [],
+          "samples": [
+            "start this reicpe",
+            "start recipe",
+            "select",
+            "select recipe"
+          ]
+        },
+        {
+          "name": "instructionsIntent",
+          "slots": [],
+          "samples": [
+            "start steps",
+            "start directions",
+            "hear directions",
+            "hear instructions",
+            "start instructions",
+            "continue with recipe",
+            "whats the next step",
+            "hear next step",
+            "continue to next step",
+            "next step"
+          ]
+        },
+        {
+          "name": "repeatStepIntent",
+          "slots": [],
+          "samples": [
+            "repeat what you said",
+            "repeat",
+            "say step again",
+            "what was the step again",
+            "repeat step"
+          ]
+        },
+        {
+          "name": "selectCuisineIntent",
+          "slots": [
+            {
+              "name": "cuisine",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "samples": [
+            "only search for {cuisine}",
+            "show only {cuisine}",
+            "only show {cuisine}",
+            "set type to {cuisine}",
+            "find {cuisine} recipes",
+            "search for {cuisine}",
+            "show me {cuisine}",
+            "show me {cuisine} food",
+            "Yes {cuisine}",
+            "Find {cuisine} food"
+          ]
+        },
+        {
+          "name": "IngredientsIntent",
+          "slots": [],
+          "samples": [
+            "what are the ingredients again",
+            "repeat ingredients",
+            "gather ingredients",
+            "what do I need to make this",
+            "ingredients",
+            "tell ingredients",
+            "tell me the ingredients",
+            "show ingredients",
+            "what are the ingredients",
+            "hear ingredients"
+          ]
+        },
+        {
+          "name": "sendRecipeIntent",
+          "slots": [],
+          "samples": [
+            "send it to me",
+            "send me the recipe",
+            "send it",
+            "send me it",
+            "send to app",
+            "send to alexa app",
+            "send to phone",
+            "send me recipe",
+            "send recipe to phone"
+          ]
+        },
+        {
+          "name": "removeIngredientsIntent",
+          "slots": [
+            {
+              "name": "ingredient",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "samples": [
+            "remove {ingredient} from ingredients",
+            "i don\u0027t want {ingredient}",
+            "remove last ingredient",
+            "remove previous",
+            "remove {ingredient}"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "rice"
+              }
+            },
+            {
+              "name": {
+                "value": "chicken"
+              }
+            }
+          ],
+          "name": "AMAZON.Food"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "add",
+                "synonyms": [
+                  "some ",
+                  "we have",
+                  "add in",
+                  "i have",
+                  "i got"
+                ]
+              }
+            }
+          ],
+          "name": "addWord"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "additionally"
+              }
+            },
+            {
+              "name": {
+                "value": "including"
+              }
+            },
+            {
+              "name": {
+                "value": "or"
+              }
+            },
+            {
+              "name": {
+                "value": "also"
+              }
+            },
+            {
+              "name": {
+                "value": "and"
+              }
+            }
+          ],
+          "name": "conjunction"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "find recipies"
+              }
+            },
+            {
+              "name": {
+                "value": "find dish"
+              }
+            },
+            {
+              "name": {
+                "value": "recipe"
+              }
+            },
+            {
+              "name": {
+                "value": "search for recipe"
+              }
+            },
+            {
+              "name": {
+                "value": "what can I make"
+              }
+            },
+            {
+              "name": {
+                "value": "find recipes with my ingredients"
+              }
+            },
+            {
+              "name": {
+                "value": "find recipes"
+              }
+            },
+            {
+              "name": {
+                "value": "search for recipes"
+              }
+            },
+            {
+              "name": {
+                "value": "show me the recipes"
+              }
+            },
+            {
+              "name": {
+                "value": "search"
+              }
+            },
+            {
+              "name": {
+                "value": "find drinks"
+              }
+            },
+            {
+              "name": {
+                "value": "search for drinks"
+              }
+            }
+          ],
+          "name": "displayRecipes"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "hear next recipe"
+              }
+            },
+            {
+              "name": {
+                "value": "go to next recipe"
+              }
+            },
+            {
+              "name": {
+                "value": "what are the other options"
+              }
+            },
+            {
+              "name": {
+                "value": "see other recipes"
+              }
+            },
+            {
+              "name": {
+                "value": "next recipe"
+              }
+            },
+            {
+              "name": {
+                "value": "next drink"
+              }
+            },
+            {
+              "name": {
+                "value": "load next "
+              }
+            },
+            {
+              "name": {
+                "value": "load next recipe"
+              }
+            },
+            {
+              "name": {
+                "value": "hear next"
+              }
+            },
+            {
+              "name": {
+                "value": "show next"
+              }
+            },
+            {
+              "name": {
+                "value": "show me the next recipe"
+              }
+            },
+            {
+              "name": {
+                "value": "next"
+              }
+            }
+          ],
+          "name": "nextRecipe"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "MEDIUM"
+        }
+      }
+    }
+  },
+  "version": "141"
+}

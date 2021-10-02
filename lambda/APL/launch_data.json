@@ -1,0 +1,40 @@
+{
+    "headlineTemplateData": {
+        "type": "object",
+        "objectId": "headlineSample",
+        "properties": {
+            "backgroundImage": {
+                "contentDescription": null,
+                "smallSourceUrl": null,
+                "largeSourceUrl": null,
+                "sources": [
+                    {
+                        "url": "https://i.imgur.com/BMb0Emf.png",
+                        "size": "small",
+                        "widthPixels": 0,
+                        "heightPixels": 0
+                    },
+                    {
+                        "url": "https://i.imgur.com/BMb0Emf.png",
+                        "size": "large",
+                        "widthPixels": 0,
+                        "heightPixels": 0
+                    }
+                ]
+            },
+            "textContent": {
+                "primaryText": {
+                    "type": "PlainText",
+                    "text": "Welcome to Recipe Genie!"
+                },
+                "secondaryText": {
+                    "type": "PlainText",
+                    "text": "Tell us your ingredients"
+                }
+            },
+            "logoUrl": "",
+            "hintText": "Try, \"I have pasta, mushrooms, and peppers\""
+        }
+
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "directives": [
+    {
+      "type": "Alexa.Presentation.APL.UpdateIndexListData",
+      "token": "displayRecipes",
+      "listId": "textListData",
+      "listVersion": 3,
+      "operations": [
+        {
+          "type": "InsertItem",
+          "index": 0,
+          "item": {}
+          
+        }
+      ]
+    }
+  ]
+}

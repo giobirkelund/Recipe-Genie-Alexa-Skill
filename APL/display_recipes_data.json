@@ -1,0 +1,11 @@
+{
+    "textListData": {
+        "headerTitle": "Select a recipe",
+        "headerSubtitle": "new recipes are loaded by saying 'next recipe'",
+        "backgroundImageSource": "https://i.imgur.com/BMb0Emf.png",
+        "listItemsToShow": [
+
+        ],
+    "logoUrl": "https://i.ibb.co/Dt1rW3D/recipe-Genie-Grey-Logo-No-Border.png"
+    }
+}

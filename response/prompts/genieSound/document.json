@@ -1,0 +1,1 @@
+{"type":"APLA","version":"0.8","mainTemplate":{"parameters":["payload"],"item":{"type":"Mixer","items":[{"type":"Audio","source":"${payload.myData.audio}","filters":[{"type":"Volume","amount":"40%"},{"type":"FadeIn","duration":300},{"type":"FadeOut","duration":300}]}]}}}

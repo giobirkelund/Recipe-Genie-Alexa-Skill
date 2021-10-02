@@ -1,0 +1,149 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Making dinner just got easy! Discover delicious recipes in seconds by listing the ingredients you have at home.",
+          "examplePhrases": [
+            "Alexa start recipe genie",
+            "Only show omelets",
+            "add egg mushrooms and cheese"
+          ],
+          "keywords": [
+            "Dinner",
+            "Recipes",
+            "My",
+            "Fridge",
+            "Ingredients",
+            "Recipes",
+            "drinks",
+            "cocktail",
+            "liquor",
+            "recipes",
+            "dinner",
+            "dessert",
+            "lunch",
+            "meals",
+            "smoothies",
+            "alcoholic",
+            "beverage",
+            "search",
+            "recipes",
+            "easy",
+            "recipes",
+            "home",
+            "recipes",
+            "Cooking",
+            "Baking",
+            "APL",
+            "Lunch",
+            "make",
+            "food"
+          ],
+          "name": "Recipe Genie",
+          "description": "Turn your ingredients in your kitchen into delicious dishes, drinks, or even desserts.\nJust add your ingredients, search for a recipe, pick a recipe you like, and begin - it\u0027s that simple!\nTo search for a specific recipe, you could say \"only show smoothie\".\n\nOnce you\u0027ve searched for and selected a recipe, you can either hear the ingredients and instructions, or get the recipe sent to your Alexa app on your phone!\nIf you have an alexa device with a screen:\n-you can view and delete ingredients while they\u0027re being added\n-you can see recipes from the search results\n-you can view your selected recipe!\n\nOnce opening the skill, try saying: \n\"I have chicken, potatoes, and corn\". \nThen, say \"search recipes\".\nPick a recipe you like, gather ingredients, and begin making it.",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "The whole experience is displayed visually on APL compatible devices (devices with screens!)",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "en-US",
+            "language": "en"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "First you have to add ingredients to the search and then say search recipes to search when you\u0027re done adding your ingredients. For example, start by saying:\n\"Add chicken corn and potatoes\". \nAfter that, say:\n\"Search recipes\".\n\n Then, select a recipe you like.\nYou could say \"start recipe\" to select the first recipe, or \"next recipe\" to proceed.\nAfter that, you can say \"hear instructions\", \"hear ingredients\", or \"send recipe to phone\". \nAfter you have heard the instructions, for example, you could say \"hear ingredients\". \nAn example of a full run in sequential order after the app has been opened could be: \n\"open recipe genie\", \"Alexa add pasta, chicken, and tomatoes.\", \"search recipes\", \"start recipe\", \"hear ingredients\", \"hear instructions\". Say next step until instructions are completed.",
+      "category": "COOKING_AND_RECIPE",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:251619197574:function:2f47c791-66a9-40b8-bb45-8c0b55dae3d9:Release_2"
+        },
+        "interfaces": [
+          {
+            "supportedViewports": [
+              {
+                "minHeight": 540,
+                "mode": "TV",
+                "shape": "RECTANGLE",
+                "maxHeight": 540,
+                "minWidth": 960,
+                "maxWidth": 960
+              },
+              {
+                "minHeight": 480,
+                "mode": "HUB",
+                "shape": "ROUND",
+                "maxHeight": 480,
+                "minWidth": 480,
+                "maxWidth": 480
+              },
+              {
+                "minHeight": 600,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 600,
+                "minWidth": 1024,
+                "maxWidth": 1024
+              },
+              {
+                "minHeight": 800,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 800,
+                "minWidth": 1280,
+                "maxWidth": 1280
+              },
+              {
+                "minHeight": 480,
+                "mode": "HUB",
+                "shape": "RECTANGLE",
+                "maxHeight": 480,
+                "minWidth": 960,
+                "maxWidth": 960
+              }
+            ],
+            "type": "ALEXA_PRESENTATION_APL"
+          }
+        ],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:251619197574:function:2f47c791-66a9-40b8-bb45-8c0b55dae3d9:Release_2"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:251619197574:function:2f47c791-66a9-40b8-bb45-8c0b55dae3d9:Release_2"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:251619197574:function:2f47c791-66a9-40b8-bb45-8c0b55dae3d9:Release_2"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": true,
+      "locales": {
+        "en-US": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
