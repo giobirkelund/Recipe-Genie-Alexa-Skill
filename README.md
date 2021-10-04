@@ -1,11 +1,9 @@
-# About the project
-
+# What it does
+Recipe Genie will find food or drink recipes that use the ingredients you have in your kitchen while using as many of your ingredients as possible. This way, you can combine your ingredients into a delicious recipe, and avoid throwing away leftover ingredients.
+# Devpost Submission
 As part of my DevPost submission for the Amazon Alexa Beyond Voice hackathon, I incoporated APL (Amazon Presentation Language) so that recipe genie would have a visual display for alexa devices with screens. Check out the links below for the submission and a video demo!
 * [Devpost submission](https://devpost.com/software/recipe-genie) 
 * [Video demo](https://www.youtube.com/watch?v=NRfQhhLTsBw)
-
-# What it does
-Recipe Genie will find food or drink recipes that use the ingredients you have in your kitchen while using as many of your ingredients as possible. This way, you can combine your ingredients into a delicious recipe, and avoid throwing away leftover ingredients.
 
 ## Things you can do 
 * If you want to find a specific dish or drink, you can specify that by saying "only show omelet", for example, which will find recipes including that keyword in the title. This can also be combined with ingredients in your search.
